@@ -1,0 +1,21 @@
+# Keep source notebooks and training artifacts out of this results-only repository
+*.ipynb
+*.ipynb_checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.h5
+*.keras
+
+# Dataset/cache files
+data/
+datasets/
+cifar-10*/
+.cache/
+
+# Python/runtime noise
+__pycache__/
+*.py[cod]
+.DS_Store
+.env

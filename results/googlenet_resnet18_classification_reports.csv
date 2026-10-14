@@ -1,0 +1,27 @@
+class_or_metric,precision,recall,f1-score,support,source_notebook
+airplane,0.9128,0.911,0.9119,1000.0,googlenet-resnet18-cifar10-benchmark.ipynb
+automobile,0.9707,0.962,0.9663,1000.0,googlenet-resnet18-cifar10-benchmark.ipynb
+bird,0.9109,0.828,0.8675,1000.0,googlenet-resnet18-cifar10-benchmark.ipynb
+cat,0.8118,0.815,0.8134,1000.0,googlenet-resnet18-cifar10-benchmark.ipynb
+deer,0.8596,0.918,0.8878,1000.0,googlenet-resnet18-cifar10-benchmark.ipynb
+dog,0.8536,0.851,0.8523,1000.0,googlenet-resnet18-cifar10-benchmark.ipynb
+frog,0.9091,0.94,0.9243,1000.0,googlenet-resnet18-cifar10-benchmark.ipynb
+horse,0.9443,0.933,0.9386,1000.0,googlenet-resnet18-cifar10-benchmark.ipynb
+ship,0.937,0.952,0.9444,1000.0,googlenet-resnet18-cifar10-benchmark.ipynb
+truck,0.9457,0.941,0.9434,1000.0,googlenet-resnet18-cifar10-benchmark.ipynb
+accuracy,0.9051,0.9051,0.9051,0.9051,googlenet-resnet18-cifar10-benchmark.ipynb
+macro avg,0.9055,0.9051,0.905,10000.0,googlenet-resnet18-cifar10-benchmark.ipynb
+weighted avg,0.9055,0.9051,0.905,10000.0,googlenet-resnet18-cifar10-benchmark.ipynb
+airplane,0.9087,0.936,0.9222,1000.0,googlenet-resnet18-cifar10-benchmark.ipynb
+automobile,0.968,0.968,0.968,1000.0,googlenet-resnet18-cifar10-benchmark.ipynb
+bird,0.8825,0.871,0.8767,1000.0,googlenet-resnet18-cifar10-benchmark.ipynb
+cat,0.8405,0.801,0.8203,1000.0,googlenet-resnet18-cifar10-benchmark.ipynb
+deer,0.8986,0.922,0.9102,1000.0,googlenet-resnet18-cifar10-benchmark.ipynb
+dog,0.8585,0.88,0.8691,1000.0,googlenet-resnet18-cifar10-benchmark.ipynb
+frog,0.9433,0.932,0.9376,1000.0,googlenet-resnet18-cifar10-benchmark.ipynb
+horse,0.9475,0.939,0.9432,1000.0,googlenet-resnet18-cifar10-benchmark.ipynb
+ship,0.9468,0.961,0.9538,1000.0,googlenet-resnet18-cifar10-benchmark.ipynb
+truck,0.9614,0.947,0.9542,1000.0,googlenet-resnet18-cifar10-benchmark.ipynb
+accuracy,0.9157,0.9157,0.9157,0.9157,googlenet-resnet18-cifar10-benchmark.ipynb
+macro avg,0.9156,0.9157,0.9155,10000.0,googlenet-resnet18-cifar10-benchmark.ipynb
+weighted avg,0.9156,0.9157,0.9155,10000.0,googlenet-resnet18-cifar10-benchmark.ipynb

@@ -1,0 +1,16 @@
+model,seed,epoch,train_acc,val_acc,train_validation_accuracy_gap,train_loss,val_loss,train_validation_loss_gap,source_notebook
+ResNet-18,44,20,0.9691,0.9148,0.054300000000000015,0.097,,,googlenet-resnet18-cifar10-benchmark.ipynb
+LeNet-5,43,20,0.6142,0.6318,-0.01760000000000006,1.0823,,,LeNet_AlexNet.ipynb
+ResNet-18,43,20,0.9699,0.917,0.05289999999999995,0.0942,,,googlenet-resnet18-cifar10-benchmark.ipynb
+LeNet-5,42,20,0.6112,0.6378,-0.026600000000000068,1.0951,,,LeNet_AlexNet.ipynb
+GoogLeNet,42,20,0.9767,0.9074,0.06930000000000003,0.0817,,,googlenet-resnet18-cifar10-benchmark.ipynb
+AlexNet,44,20,0.9219,0.8752,0.046700000000000075,0.2282,,,LeNet_AlexNet.ipynb
+VGG-16,42,20,0.0993,0.0994,-0.00010000000000000286,2.3026,2.3026,0.0,VGG16_CIFAR10 (1).ipynb
+GoogLeNet,43,20,0.9765,0.9094,0.06710000000000005,0.0839,,,googlenet-resnet18-cifar10-benchmark.ipynb
+VGG-16,44,20,0.0986,0.0988,-0.00020000000000000573,2.3026,2.3027,-0.00010000000000021103,VGG16_CIFAR10 (1).ipynb
+VGG-16,43,20,0.0996,0.0956,0.00399999999999999,2.3026,2.3027,-0.00010000000000021103,VGG16_CIFAR10 (1).ipynb
+ResNet-18,42,20,0.9766,0.9208,0.05580000000000007,0.0772,,,googlenet-resnet18-cifar10-benchmark.ipynb
+AlexNet,43,20,0.9142,0.8656,0.04859999999999998,0.2532,,,LeNet_AlexNet.ipynb
+AlexNet,42,20,0.9061,0.8682,0.037900000000000045,0.2692,,,LeNet_AlexNet.ipynb
+GoogLeNet,44,20,0.9776,0.9168,0.060800000000000076,0.0776,,,googlenet-resnet18-cifar10-benchmark.ipynb
+LeNet-5,44,20,0.6,0.6114,-0.011400000000000077,1.1279,,,LeNet_AlexNet.ipynb

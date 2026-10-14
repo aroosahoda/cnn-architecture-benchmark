@@ -1,0 +1,40 @@
+study:
+  dataset: CIFAR-10
+  split:
+    train_images: 45000
+    validation_images: 5000
+    test_images: 10000
+  image_size: [3, 32, 32]
+  classes: 10
+  seeds: [42, 43, 44]
+  epochs: 20
+  batch_size: 128
+  optimizer: SGD
+  learning_rate: 0.1
+  momentum: 0.9
+  weight_decay: 0.0005
+  scheduler: CosineAnnealingLR
+  train_augmentation:
+    - RandomCrop(32, padding=4)
+    - RandomHorizontalFlip
+  normalization:
+    mean: [0.4914, 0.4822, 0.4465]
+    std: [0.2470, 0.2435, 0.2616]
+  split_seed:
+    note: "VGG-16 notebook explicitly records split seed 2026; other notebooks use a fixed split but do not expose this value in the shared config cell."
+    vgg16: 2026
+hardware:
+  reported_gpu: NVIDIA Tesla T4
+software_environments:
+  lenet5_alexnet:
+    pytorch: "2.11.0+cu130"
+    torchvision: "0.26.0+cu130"
+  vgg16:
+    pytorch: "2.11.0+cu130"
+    torchvision: "0.26.0+cu130"
+  googlenet_resnet18:
+    pytorch: "2.10.0+cu128"
+    torchvision: "0.25.0+cu128"
+notes:
+  - "Runtime comparisons are software-stack sensitive."
+  - "This file documents settings visible in the supplied notebooks; it is not an executable training configuration."

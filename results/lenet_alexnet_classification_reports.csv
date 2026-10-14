@@ -1,0 +1,27 @@
+class_or_metric,precision,recall,f1-score,support,source_notebook
+airplane,0.6693,0.666,0.6677,1000.0,LeNet_AlexNet.ipynb
+automobile,0.7326,0.778,0.7546,1000.0,LeNet_AlexNet.ipynb
+bird,0.5304,0.532,0.5312,1000.0,LeNet_AlexNet.ipynb
+cat,0.4518,0.38,0.4128,1000.0,LeNet_AlexNet.ipynb
+deer,0.6074,0.495,0.5455,1000.0,LeNet_AlexNet.ipynb
+dog,0.5308,0.526,0.5284,1000.0,LeNet_AlexNet.ipynb
+frog,0.6518,0.747,0.6962,1000.0,LeNet_AlexNet.ipynb
+horse,0.6519,0.693,0.6718,1000.0,LeNet_AlexNet.ipynb
+ship,0.7106,0.771,0.7396,1000.0,LeNet_AlexNet.ipynb
+truck,0.6787,0.678,0.6783,1000.0,LeNet_AlexNet.ipynb
+accuracy,0.6266,0.6266,0.6266,0.6266,LeNet_AlexNet.ipynb
+macro avg,0.6215,0.6266,0.6226,10000.0,LeNet_AlexNet.ipynb
+weighted avg,0.6215,0.6266,0.6226,10000.0,LeNet_AlexNet.ipynb
+airplane,0.8642,0.891,0.8774,1000.0,LeNet_AlexNet.ipynb
+automobile,0.9481,0.949,0.9485,1000.0,LeNet_AlexNet.ipynb
+bird,0.8189,0.823,0.8209,1000.0,LeNet_AlexNet.ipynb
+cat,0.743,0.717,0.7298,1000.0,LeNet_AlexNet.ipynb
+deer,0.855,0.867,0.861,1000.0,LeNet_AlexNet.ipynb
+dog,0.8249,0.787,0.8055,1000.0,LeNet_AlexNet.ipynb
+frog,0.8796,0.913,0.896,1000.0,LeNet_AlexNet.ipynb
+horse,0.9093,0.892,0.9006,1000.0,LeNet_AlexNet.ipynb
+ship,0.9114,0.926,0.9187,1000.0,LeNet_AlexNet.ipynb
+truck,0.9216,0.917,0.9193,1000.0,LeNet_AlexNet.ipynb
+accuracy,0.8682,0.8682,0.8682,0.8682,LeNet_AlexNet.ipynb
+macro avg,0.8676,0.8682,0.8678,10000.0,LeNet_AlexNet.ipynb
+weighted avg,0.8676,0.8682,0.8678,10000.0,LeNet_AlexNet.ipynb

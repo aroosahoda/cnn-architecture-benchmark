@@ -1,0 +1,11 @@
+Unnamed: 0,class,precision,recall,f1
+0,airplane,0.0,0.0,0.0
+1,automobile,0.0,0.0,0.0
+2,bird,0.0,0.0,0.0
+3,cat,0.0,0.0,0.0
+4,deer,0.0,0.0,0.0
+5,dog,0.0,0.0,0.0
+6,frog,0.0,0.0,0.0
+7,horse,0.0,0.0,0.0
+8,ship,0.0,0.0,0.0
+9,truck,0.1,1.0,0.181818
